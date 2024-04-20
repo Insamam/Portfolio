@@ -1,0 +1,14 @@
+.bg-image {
+  opacity: 0.3; /* Adjust the opacity as needed */
+  width: 100%; /* Ensure the image covers the entire container */
+  height: auto; /* Maintain aspect ratio */
+  filter: grayscale(30%); /* Apply grayscale effect */
+  /* Add any additional styling here */
+}
+
+@media screen and (max-width: 768px) {
+  .about-img {
+    display: none;
+  }
+}
+
